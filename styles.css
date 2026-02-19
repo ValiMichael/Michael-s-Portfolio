@@ -2182,7 +2182,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/animation
    ============================================================================= */
 
 .patent-document {
-    max-width: min(90%, 1000px);
+    max-width: min(400px, 1000px);
     margin-bottom: 2.5rem;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 12px;
