@@ -770,13 +770,19 @@ section {
 }
 
 /* ===== PATENTS SECTION ===== */
+.patent-pdf-section {
+    align-self: center;
+    min-width: 80vw;
+    margin-top: 3rem;
+}
+
 .patents {
     background: var(--dark-bg);
 }
 
 .patents-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(553px, 1fr));
     gap: 3rem;
 }
 
@@ -2182,7 +2188,8 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/animation
    ============================================================================= */
 
 .patent-document {
-    max-width: min(100%, 1000px);
+    width: 85vw;
+    max-width: 85vw;
     margin-bottom: 2.5rem;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 12px;
@@ -2277,14 +2284,9 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/animation
         grid-template-columns: 1fr;
     }
 
-    /* Patent document section scales to 85% width on mobile */
+    /* Patent document section scales on mobile */
     .patent-iframe {
         height: 453px;
-    }
-
-    /* 2-column overview on mobile (still avoids single-column stacking) */
-    .overview-grid {
-        grid-template-columns: repeat(2, 1fr);
     }
 
     /* Features and specs go to single column on the smallest screens */
