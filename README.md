@@ -18,8 +18,7 @@ Welcome! This is the source for my professional portfolio website, designed to s
 ## 📂 Project Structure
 
 - `index.html` — Main landing page
-- `styles.css` — Modern, responsive styling
-- `detail-pages.css` — Project detail page styles
+- `styles.css` — All styles (global + detail pages combined)
 - `script.js` — Interactive navigation and UI logic
 - `images/` — All project and profile images (update here for new work)
 - `pdfs/` — Patent and technical documentation
