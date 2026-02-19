@@ -772,7 +772,7 @@ section {
 /* ===== PATENTS SECTION ===== */
 .patent-pdf-section {
     align-self: center;
-    min-width: 80vw;
+    width: 85vw;
     margin-top: 3rem;
 }
 
